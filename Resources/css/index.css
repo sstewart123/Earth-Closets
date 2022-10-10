@@ -1,0 +1,202 @@
+* {
+  
+  padding: 0;
+  border: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+  
+}
+
+.body {
+  background-size: cover;
+  background-image: url("../images/darkbrick-1.jpg");
+}
+
+/* container 1 */
+
+.grid-container {
+  /* height: 100vh; */
+  display: grid;
+  /* grid-gap: 40px; */
+  /* margin-left: 20px; */
+  /* grid-template-rows: 100px 1fr 1fr 1fr 1fr; */
+  /* grid-template-areas:
+  ""
+  ""
+  ""; */
+
+}
+
+
+
+/* banner */
+
+.banner {
+  display: grid;
+  background-color: gray;
+  background-image: url("../images/wood_3.jpg");
+  /* background-blend-mode: multiply; */
+  color: orange;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+.companyName {
+  display: grid;
+}
+
+.earth-closets {
+  font-family: papyrus;
+  margin-top: 15px;
+  margin-left: 20px;
+  font-size: 60px;
+
+  
+}
+
+.service-area {
+  margin-left: 20px;
+  font-size: 20px;
+  
+}
+
+.banner-contact-info {
+  display: grid;
+  
+}
+
+.banner-email {
+  margin-top: 15px;
+  margin-right: 20px;
+  text-align: end;
+  font-size: 28px;
+}
+
+.banner-phone {
+  margin-right: 20px;
+  text-align: end;
+  font-size: 20px;
+  align-self: end;
+}
+
+/* container 2 */
+
+.grid-container-2 {
+  
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  display: grid;
+  /* grid-gap: 20px; */
+  grid-template-columns: auto 1fr;
+  /* grid-template-rows: auto auto; */
+}
+
+.products {
+  display: grid;
+ 
+  background-color: gray;
+  background-image: url("../images/wood5A.jpg");
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: white;
+  justify-self: start;
+  padding-top: 20px;
+  padding-right: 20px;
+
+  
+}
+
+
+
+.products h2 {
+  color: white;
+  margin-left: 20px;
+  border-left: 5px double orange;
+  border-bottom: 1px solid orange;
+  padding-left: .75rem;
+  font-size: 30px;
+  
+}
+
+/* container 3 */
+
+.grid-container-3 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  display: grid;
+  /* grid-gap: 20px; */
+  grid-template-columns: auto 1fr;
+  /* grid-template-rows: auto auto; */
+}
+
+.instructions {
+  display: grid;
+  background-color: gray;
+  background-image: url("../images/leather-1.jpg");
+  background-blend-mode: multiply;
+  color: white;
+  justify-self: start;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.instructions h2 {
+  margin-left: 20px;
+  border-left: 5px double orange;
+  border-bottom: 1px solid orange;
+  padding-left: .75rem;
+  font-size: 30px;
+
+}
+
+/* lists */
+
+ul {
+ 
+  margin-left: 3.2rem;
+  /* list-style-type: disc; */
+  font-size: 20px;
+  list-style-image: url(../images/triangle3a.png);
+  
+}
+
+ul span {
+  color: orange;
+}
+
+li::marker {
+  color: orange;
+}
+
+/* footer */
+
+.footer {
+  background-color: gray;
+  background-image: url(../images/wood6.jpg);
+  background-blend-mode: multiply;
+  color: orange;
+  text-align: end;
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+.footer-contact-info {
+  
+}
+
+
+
+
+
+.uppercase {
+  /* text-transform: uppercase; */
+}
+
+.email-2 {
+  /* text-transform: lowercase; */
+}
+
+
+
